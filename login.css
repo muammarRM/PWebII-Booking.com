@@ -1,0 +1,149 @@
+/* Specific styles for login page */
+body {
+    background: #e9ecef;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    font-family: Poppins;
+    height: 100vh;
+    margin: 0;
+    /* overflow: scroll; */
+    gap: 20px;
+}
+a:hover{
+    color: #003e7f;
+}
+form {
+    background: white;
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+form h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Header styles */
+header {
+    width: 100%; 
+    background: #007BFF;
+    color: white;
+    padding: 20px 25px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+header h1 {
+    margin: 0;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 24px;
+    justify-content: center;
+}
+.logo img{
+    width: 50px;
+}
+
+
+/* Footer styles */
+footer {
+    background: #007BFF;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 16px;
+    text-align: center;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+footer p {
+    margin: 0;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+footer li {
+
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Utility styles */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.hidden {
+    display: none;
+}
